@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Profile Page</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background:#f2f2f2;
+    margin:0;
+    padding:0;
+}
+
+.profile-container{
+    width:350px;
+    margin:60px auto;
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+.profile-img{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    object-fit:cover;
+    margin-bottom:15px;
+}
+
+.name{
+    font-size:24px;
+    font-weight:bold;
+}
+
+.role{
+    color:gray;
+    margin-bottom:15px;
+}
+
+.info{
+    text-align:left;
+    margin-top:20px;
+}
+
+.info p{
+    margin:8px 0;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:10px 20px;
+    background:#007BFF;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+.btn:hover{
+    background:#0056b3;
+}
+</style>
+
+</head>
+<body>
+
+<div class="profile-container">
+
+<img src="https://via.placeholder.com/120" class="profile-img">
+
+<div class="name">akash hanchnale</div>
+<div class="role">Web Developer</div>
+
+<div class="info">
+<p><b>Email:</b> hanchnaleakash@gmail.com</p>
+<p><b>Phone:</b> +91 9373405085</p>
+<p><b>Location:</b> India</p>
+<p><b>Skills:</b> HTML, CSS, CPP</p>
+</div>
+
+<a href="#" class="btn">Edit Profile</a>
+
+</div>
+
+</body>
+</html>
